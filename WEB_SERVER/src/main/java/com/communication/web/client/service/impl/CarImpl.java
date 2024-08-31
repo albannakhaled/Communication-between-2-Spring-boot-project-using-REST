@@ -26,11 +26,4 @@ public class CarImpl implements CarAction {
         double threshold = 25000.00;
         return price > threshold;
     }
-
-    @Override
-    public Boolean isDiesel(Long id) {
-        // Stub implementation (assuming you have a field or method to determine diesel status)
-        // This example assumes cars are not diesel
-        return false;
-    }
 }
